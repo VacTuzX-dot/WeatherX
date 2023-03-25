@@ -163,7 +163,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 1);
 }
 
 .not-found img {
@@ -171,7 +170,7 @@ body {
 }
 
 .not-found p {
-  color: #fff;
+  color: #06283d;
   font-size: 22px;
   font-weight: 500;
   margin-top: 12px;
@@ -240,73 +239,4 @@ footer {
   font-size: 14px;
   color: #999;
   margin-top: 20px;
-}
-
-
-/* Small screens (mobile devices) */
-@media only screen and (max-width: 600px) {
-  .container {
-    width: 85%;
-    height: auto;
-    padding: 20px;
-    border-radius: 10px;
-  }
-
-  .search-box input {
-    font-size: 18px;
-    padding-left: 20px;
-  }
-
-  .search-box button {
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
-  }
-
-  .weather-box img {
-    width: 50%;
-    margin-top: 20px;
-  }
-
-  .weather-box .temperature {
-    font-size: 3rem;
-    margin-top: 20px;
-    margin-left: -10px;
-  }
-
-  .weather-box .description {
-    font-size: 18px;
-  }
-
-  .weather-details .humidity,
-  .weather-details .wind {
-    height: 80px;
-  }
-
-  .weather-details i {
-    font-size: 22px;
-    margin-right: 8px;
-    margin-top: 4px;
-  }
-
-  .weather-details span {
-    font-size: 18px;
-  }
-
-  .weather-details p {
-    font-size: 12px;
-  }
-
-  .not-found {
-    margin-top: 30px;
-  }
-
-  .not-found img {
-    width: 80%;
-  }
-
-  .not-found p {
-    font-size: 18px;
-    margin-top: 8px;
-  }
 }
